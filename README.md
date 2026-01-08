@@ -1,78 +1,56 @@
 <div align="center">
 
-# 🚀 Atom SSH Scanner
+# 🚀 Atom SSH Scanner & Analyzer
 
 [![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=for-the-badge&logo=go)](https://golang.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
-[![Release](https://img.shields.io/github/v/release/yourusername/atom-ssh-scanner?style=for-the-badge)](https://github.com/yourusername/atom-ssh-scanner/releases)
-[![Stars](https://img.shields.io/github/stars/yourusername/atom-ssh-scanner?style=for-the-badge)](https://github.com/yourusername/atom-ssh-scanner/stargazers)
+[![Version](https://img.shields.io/badge/Version-v4.0--Atom-blue?style=for-the-badge)](https://github.com/yourusername/atom-ssh/releases)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-orange?style=for-the-badge)](#)
 
-**پیشرفته‌ترین ابزار اسکن و تحلیل SSH با تشخیص هوشمند Honeypot**
+**High-performance SSH Scanning & Security Analysis Tool with Intelligent Honeypot Detection**
 
 </div>
 
 ---
 
+## 🎯 Overview
 
-- [معرفی](#-معرفی)
-- [ویژگی‌های کلیدی](#-ویژگی‌های-کلیدی)
-- [نصب](#-نصب)
-
----
-
-## 🎯 معرفی
-
-**Atom SSH Scanner** یک ابزار قدرتمند و پیشرفته برای اسکن، تست و تحلیل سرورهای SSH است که با استفاده از الگوریتم‌های هوش مصنوعی قادر به تشخیص Honeypot و ارائه گزارش‌های جامع امنیتی می‌باشد.
-
-### 🌟 چرا Atom SSH Scanner؟
-
-- 🧠 **تشخیص هوشمند Honeypot** با 15+ تست مختلف
-- ⚡ **سرعت فوق‌العاده** با پشتیبانی تا 2000 worker همزمان
-- 🎯 **دقت بالا** با سیستم Smart Retry و Adaptive Timeout
-- 📊 **گزارش‌های حرفه‌ای** به صورت JSON و HTML
-- 🔄 **Resume قابل اعتماد** برای ادامه اسکن‌های طولانی
-- 🥷 **Stealth Mode** برای اسکن‌های مخفیانه
+**Atom SSH Scanner** is a professional-grade tool designed for large-scale SSH auditing and server analysis. Built for speed and reliability, it features AI-driven behavioral analysis to distinguish between real servers and security traps (Honeypots).
 
 ---
 
-## 🚀 ویژگی‌های کلیدی
+## 🌟 Key Features
 
-### **اسکن و تست SSH:**
-- ✅ Multi-threaded scanning با worker pool بهینه
-- ✅ پشتیبانی از هزاران IP به صورت همزمان
-- ✅ تست سریع credential ها
-- ✅ تشخیص خودکار پورت SSH
+### **Advanced SSH Auditing**
+- ⚡ **Turbo-Speed:** Highly optimized worker pool supporting up to 2000 concurrent threads.
+- 🧠 **AI Honeypot Detection:** Performs 15+ behavioral tests to identify decoy servers.
+- 🎯 **High Precision:** Built-in Smart Retry system and Adaptive Timeouts for unstable networks.
+- 🥷 **Stealth Mode:** Optimized scanning patterns to avoid detection.
 
-### **تحلیل امنیتی:**
-- 🛡️ Security Score محاسبه شده
-- 🔍 اسکن آسیب‌پذیری‌های رایج
-- 🕵️ تحلیل رفتاری سرور
-- 🎭 تشخیص Honeypot با AI
+### **Deep Analysis & Intelligence**
+- 🛡️ **Security Scoring:** Automatic risk assessment for reached targets.
+- 💻 **OS Fingerprinting:** Detailed identification of operating systems and hardware info.
+- 📦 **Software Auditing:** Extracts lists of installed packages and active services.
+- 📊 **Professional Reporting:** Generates comprehensive reports in **JSON** and **HTML** formats.
 
-### **جمع‌آوری اطلاعات:**
-- 💻 مشخصات کامل سیستم عامل
-- 🔧 اطلاعات سخت‌افزاری
-- 🌐 تحلیل شبکه
-- 📦 لیست نرم‌افزارهای نصب شده
-- ⚙️ سرویس‌های در حال اجرا
-
-### **بهینه‌سازی عملکرد:**
-- 🚄 Fast Mode برای سرعت بیشتر
-- 🎯 Balanced Mode (توصیه شده)
-- 🥷 Stealth Mode برای اسکن مخفیانه
-- 🔄 Smart Retry برای اتصالات ناپایدار
-- ⏱️ Adaptive Timeout
+### **Reliability**
+- 🔄 **Auto-Resume:** Smart session management to continue long-running scans after interruption.
+- 🚄 **Performance Profiles:** Choose between *Fast*, *Balanced*, or *Stealth* modes.
 
 ---
 
-## 💾 نصب
+## 📥 How to Use (Pre-built Binaries)
 
-### **روش 1: دانلود باینری آماده** (توصیه می‌شود)
+Since this project is **not open-source**, you should download the compiled binaries directly from the **Releases** section.
 
-**Windows:**
-```powershell
-# دانلود آخرین نسخه
-Invoke-WebRequest -Uri "https://github.com/yourusername/atom-ssh-scanner/releases/latest/download/atom-ssh-windows-amd64.exe" -OutFile "atom-ssh.exe"
+### **Step 1: Download**
+Go to the [Releases](https://github.com/Sir-Moulodi/atom-ssh-scanner/releases) page on the right sidebar and download the version compatible with your OS:
+* `atom-ssh-windows-amd64.exe` (Windows)
+* `atom-ssh-linux-amd64` (Linux)
+* `atom-ssh-macos-arm64` (Mac M1/M2/M3)
 
-# اجرا
+### **Step 2: Execution**
+
+**On Windows:**
+Simply double-click the `.exe` file or run via CMD:
+```cmd
 .\atom-ssh.exe
