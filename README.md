@@ -9,26 +9,14 @@
 
 **پیشرفته‌ترین ابزار اسکن و تحلیل SSH با تشخیص هوشمند Honeypot**
 
-[ویژگی‌ها](#-ویژگی‌ها) • 
-[نصب](#-نصب) • 
-[استفاده](#-استفاده) • 
-[مستندات](#-مستندات) • 
-[مشارکت](#-مشارکت)
-
 </div>
 
 ---
 
-## 📋 فهرست مطالب
 
 - [معرفی](#-معرفی)
 - [ویژگی‌های کلیدی](#-ویژگی‌های-کلیدی)
 - [نصب](#-نصب)
-- [استفاده سریع](#-استفاده-سریع)
-- [حالت‌های اسکن](#-حالتهای-اسکن)
-- [Server Checker](#-server-checker)
-- [مثال‌ها](#-مثالها)
-- [توسعه‌دهندگان](#-توسعهدهندگان)
 
 ---
 
@@ -88,13 +76,3 @@ Invoke-WebRequest -Uri "https://github.com/yourusername/atom-ssh-scanner/release
 
 # اجرا
 .\atom-ssh.exe
-
-## 📱 ارتباط با ما
-
-<div align="center">
-
-[![Telegram](https://img.shields.io/badge/Developer-@Midas__ir-blue?style=for-the-badge&logo=telegram)](https://t.me/Midas_ir)
-[![Telegram Channel](https://img.shields.io/badge/Channel-@Atom__Bin-blue?style=for-the-badge&logo=telegram)](https://t.me/Atom_Bin)
-[![GitHub](https://img.shields.io/badge/GitHub-AtomTeam-black?style=for-the-badge&logo=github)](https://github.com/yourusername)
-
-</div>
